@@ -1,0 +1,22 @@
+{
+    "name": "gisleisilva/connect",
+    "description": "Classe de conexão e acesso ao banco de dados",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Gisle Silva",
+        "email": "gisleisilvacruz@gmail.com",
+        "role": "Developer",
+        "homepage": "https://gisleisilva.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+      "files": [
+        "source/Config.php"
+      ]
+    }
+  }
